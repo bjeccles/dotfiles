@@ -38,9 +38,5 @@
 [push]
 	default = simple
 
-[user]
-	email = mwills@wpi.edu
-	name = Mitchell Wills
-
 [http]
 	sslVerify = true
