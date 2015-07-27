@@ -312,3 +312,8 @@ function maketar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
 
 # Create a ZIP archive of a file or folder.
 function makezip() { zip -r "${1%%/}.zip" "$1" ; }
+
+source ~/ballbot_linux/bnr/devel/setup.bash
+export ROS_MASTER_URI=http://192.168.254.1:11311
+export ROS_IP=192.168.254.1
+
