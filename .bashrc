@@ -314,6 +314,13 @@ function maketar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
 function makezip() { zip -r "${1%%/}.zip" "$1" ; }
 
 source ~/ballbot_linux/bnr/devel/setup.bash
-export ROS_MASTER_URI=http://192.168.254.1:11311
-export ROS_IP=192.168.254.1
+#export ROS_MASTER_URI=http://192.168.254.1:11311
+#export ROS_IP=192.168.254.1
 
+#Git variables
+export GIT_CONFIG_NOSYSTEM
+export GIT_AUTHOR_NAME="Brian Eccles"
+export GIT_AUTHOR_EMAIL="brian.e@bnrobotics.com"
+export GIT_COMMITTER_NAME="Brian Eccles"
+export GIT_COMMITTER_EMAIL="brian.e@bnrobotics.com"
+export BNR_HOME=/bnr/opt

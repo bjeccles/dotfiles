@@ -1,7 +1,49 @@
-Host attila-1
-	User attila
-	HostName 192.168.134.1
-
-Host brian
+Host at1
 	User ballbot
-	HostName 192.168.254.1
+	HostName 192.168.134.1
+	ForwardAgent yes
+
+Host at2
+	User ballbot
+	HostName 192.168.134.2
+	ForwardAgent yes
+
+Host at3
+	User ballbot
+	HostName 192.168.134.3
+	ForwardAgent yes
+
+Host gp1
+	User ballbot
+	HostName 192.168.1.233
+	ForwardAgent yes
+
+Host gp2
+	User ballbot
+	HostName 192.168.1.234
+	ForwardAgent yes
+
+Host gp3
+	User ballbot
+	HostName 192.168.1.235
+	ForwardAgent yes
+
+Host gpint
+	User ballbot
+	HostName 192.168.0.101
+	ForwardAgent yes
+
+Host gt1
+	User ballbot
+	HostName 192.168.1.231
+	ForwardAgent yes
+
+Host gt2
+	User ballbot
+	HostName 192.168.1.232
+	ForwardAgent yes
+
+Host bnrp
+	User bje
+	HostName 192.168.56.1
+	ForwardAgent yes
