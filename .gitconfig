@@ -41,3 +41,6 @@
 
 [http]
 	sslVerify = true
+[user]
+	email = brian.e@bnrobotics.com
+	name = Brian Eccles

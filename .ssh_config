@@ -47,3 +47,8 @@ Host bnrp
 	User bje
 	HostName 192.168.56.1
 	ForwardAgent yes
+
+Host bnrtest
+	User pi
+	HostName 192.168.0.1
+	ForwardAgent yes
