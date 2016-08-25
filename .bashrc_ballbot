@@ -313,5 +313,9 @@ function maketar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
 # Create a ZIP archive of a file or folder.
 function makezip() { zip -r "${1%%/}.zip" "$1" ; }
 
-export BNR_ROOT=~/bnr_robot_software
+alias x='screen -x ballbot/bnr-2-processes'
+
+export BNR_ROOT=/home/ballbot/bnr_robot_software
 source $BNR_ROOT/scripts/bnr_rc.bash
+cd $BNR_ROOT
+

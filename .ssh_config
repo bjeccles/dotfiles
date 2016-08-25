@@ -1,7 +1,199 @@
-Host attila-1
-	User attila
-	HostName 192.168.134.1
+Host *
+  ForwardAgent yes
 
-Host brian
+Host alpr2n
+	User brian_eccles
+	HostName 192.168.69.2
+	StrictHostKeyChecking no
+	UserKnownHostsFile=/dev/null
+
+Host at0
 	User ballbot
-	HostName 192.168.254.1
+	HostName 192.168.134.0
+	StrictHostKeyChecking no
+	UserKnownHostsFile=/dev/null
+
+Host at1
+	User ballbot
+	HostName 192.168.68.1
+
+Host at2
+	User ballbot
+	HostName 192.168.68.2
+
+Host at3
+	User ballbot
+	HostName 192.168.68.3
+	
+Host at4
+	User ballbot
+	HostName 192.168.68.4
+	
+Host at5
+	User ballbot
+	HostName 192.168.68.5
+	
+Host at6
+	User ballbot
+	HostName 192.168.68.6
+	
+Host at7
+	User ballbot
+	HostName 192.168.68.7
+
+Host gp0
+	User ballbot
+	HostName 192.168.1.230
+	StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp0i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp0
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp1
+	User ballbot
+	HostName 192.168.67.1
+	
+Host gp1i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp1
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp2
+	User ballbot
+	HostName 192.168.67.2
+	
+Host gp2i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp2
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp3
+	User ballbot
+	HostName 192.168.67.3
+	
+Host gp3i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp3
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+	
+Host gp4
+	User ballbot
+	HostName 192.168.67.4
+	
+Host gp4i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp4
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp5
+	User ballbot
+	HostName 192.168.67.5
+	
+Host gp5i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp5
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp6
+	User ballbot
+	HostName 192.168.67.6
+	
+Host gp6i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp6
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gp7
+	User ballbot
+	HostName 192.168.67.7
+	
+Host gp7i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gp7
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+
+Host gp
+	User ballbot
+	HostName 192.168.0.101
+	StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gpi
+  User ballbot
+  HostName 192.168.0.102
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host nav
+  User ballbot
+  HostName 192.168.0.101
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null 
+
+Host img
+  User ballbot
+  HostName 192.168.0.102
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+  
+
+Host gt1
+	User ballbot
+	HostName 192.168.66.1
+	
+Host gt1i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gt1
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host gt2
+	User ballbot
+	HostName 192.168.66.2
+	
+Host gt2i
+  User ballbot
+  HostName 192.168.0.102
+  ProxyCommand ssh -W %h:%p gt2
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+
+Host bnrp
+	User bje
+	HostName 192.168.56.1
+
+Host bnrtest
+	User pi
+	HostName 192.168.0.1
+
+Host br1
+	User ballbot
+	HostName 192.168.1.229
+
+Host hydrogen
+	User brian_eccles
+	HostName hydrogen.pgh.bnrobotics.com
+
+
